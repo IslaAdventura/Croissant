@@ -1,14 +1,22 @@
 body {
-  background: #d7d7d7;
+  background: #505050;
 }
 
-h1,
-h2,
-h3 {
-  color: #1b1811;
+h1 {
+  color: white;
   font-family: "Courier New", Courier, monospace;
+  margin-bottom: 50px;
   text-align: center;
-  text-shadow: 0.1em 0.1em 0.15em #ffc0cb;
+  text-shadow: 0.1em 0.1em 0.15em #009b7d;
+  font-size: 70px;
+}
+h2 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.15em #009b7d;
+  font-size: 45px;
 }
 
 a {
@@ -16,11 +24,11 @@ a {
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
-  color: #1b1811;
+  color: white;
   display: block;
   padding: 25px 25px;
   text-align: center;
-  text-shadow: 0.1em 0.1em 0.15em #08e8de;
+  text-shadow: 0.1em 0.1em 0.15em black;
 }
 
 .img-fluid {
@@ -29,4 +37,17 @@ a {
   max-width: 60%;
   padding-bottom: 25px;
   padding-top: 50px;
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.a-footer {
+  font-size: 16px;
 }
