@@ -2,16 +2,13 @@ body {
   background: #505050;
 }
 
-.navbar {
-}
-
 h1 {
-  color: white;
+  color: #009b7d;
   font-family: "Courier New", Courier, monospace;
-  margin-top: 100px;
+  margin: 100px 100px;
   text-align: center;
-  text-shadow: 0.1em 0.1em 0.15em #009b7d;
-  font-size: 60px;
+  text-shadow: 0.1em 0.1em 0.15em black;
+  font-size: 50px;
 }
 h2 {
   color: white;
@@ -35,6 +32,12 @@ a {
   text-shadow: 0.1em 0.1em 0.15em black;
 }
 
+p {
+  color: white;
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}
 .img-fluid {
   display: block;
   margin: auto;
@@ -50,14 +53,15 @@ a {
 }
 
 footer {
+  color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
-  text-decoration: none;
-  color: white;
-  display: block;
-  margin-top: 50px;
+  font-weight: bold;
+  margin-top: 125px;
+  max-width: 100%;
   padding: 10px 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .a-footer {
